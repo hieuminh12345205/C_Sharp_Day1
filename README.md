@@ -1,26 +1,26 @@
 # C_Sharp_Day1
 
-Chuong trinh Console C# quan ly cac loai hinh hoc bang tinh da hinh.
+Chương trình Console C# quản lý các loại hình học bằng tính đa hình.
 
-## Chuc nang
+## Chức năng
 
-- Quan ly hinh tron.
-- Quan ly hinh chu nhat.
-- Quan ly hinh tam giac.
-- Tinh dien tich va chu vi.
-- Kiem tra du lieu dau vao hop le.
-- Kiem tra ba canh co tao thanh tam giac hay khong.
-- Hien thi danh sach cac hinh da nhap.
+- Quản lý hình tròn.
+- Quản lý hình chữ nhật.
+- Quản lý hình tam giác.
+- Tính diện tích và chu vi.
+- Kiểm tra dữ liệu đầu vào hợp lệ.
+- Kiểm tra ba cạnh có tạo thành tam giác hay không.
+- Hiển thị danh sách các hình đã nhập.
 
-## Kien thuc ap dung
+## Kiến thức áp dụng
 
 - Interface `Hinh`.
-- Tinh da hinh thong qua `List<Hinh>`.
-- Phuong thuc khoi tao.
-- Dong goi va kiem tra du lieu trong cac thuoc tinh.
-- Cong thuc Heron de tinh dien tich tam giac.
+- Tính đa hình thông qua `List<Hinh>`.
+- Phương thức khởi tạo.
+- Đóng gói và kiểm tra dữ liệu trong các thuộc tính.
+- Công thức Heron để tính diện tích tam giác.
 
-## Cau truc du an
+## Cấu trúc dự án
 
 ```text
 C_Sharp_Day1/
@@ -30,27 +30,24 @@ C_Sharp_Day1/
 └── README.md
 ```
 
-## Yeu cau
+## Yêu cầu
 
 - .NET 10 SDK
-- Visual Studio 2026 hoac moi hon
+- Visual Studio 2026 hoặc mới hơn
 
-## Cach chay
+## Cách chạy
 
-Mo file `ConsoleApp1.slnx` bang Visual Studio, sau do nhan `Ctrl + F5`.
+Mở file `ConsoleApp1.slnx` bằng Visual Studio, sau đó nhấn `Ctrl + F5`.
 
-Hoac chay bang terminal:
+Hoặc chạy bằng terminal:
 
 ```bash
 dotnet run
 ```
 
-## Su dung
+## Sử dụng
 
-1. Chon loai hinh trong menu.
-2. Nhap cac gia tri kich thuoc.
-3. Chon `Hien thi danh sach hinh` de xem dien tich va chu vi.
-4. Chon `Thoat` de ket thuc chuong trinh.
-git add README.md
-git commit -m "Add README"
-git push origin master
+1. Chọn loại hình trong menu.
+2. Nhập các giá trị kích thước.
+3. Chọn `Hiển thị danh sách hình` để xem diện tích và chu vi.
+4. Chọn `Thoát` để kết thúc chương trình.
